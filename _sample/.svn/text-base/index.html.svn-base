@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=GB18030"/>
+	<title></title> 
+	<script type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.5.2/jquery.js" ></script> 
+	<link href="./demo.css" rel="stylesheet"/> 
+	<link href="../css/pop.css" rel="stylesheet"/> 
+	<script type="text/javascript" src="../js/jspop.js" ></script> 
+	 </head>  
+<body>
+	<h1>JSPOP 案例</h1>
+	<a href="eric1" style="top:20px;left:10px;position: absolute;">我要在右下弹出</a>
+	<a href="eric2" style="top:20px;right:10px;position: absolute;">我要在左下弹出</a>
+	<a href="eric3" style="top:200px;left:10px;position: absolute;">我要在右上弹出</a>
+	<a href="eric4" style="top:200px;right:10px;position: absolute;">我要在左上弹出</a>
+	<!-- <a href="">我不弹出</a>
+	<a href=""><img src=""></img></a> -->
+</body>
+</html> 
+<script>$('a').each(function(){$(this).jspop();});</script>
